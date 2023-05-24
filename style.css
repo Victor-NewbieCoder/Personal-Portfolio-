@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #041806;
+}
+
+header{
+    display: flex;
+    text-align: center;
+}
+
+header h1{
+    color: white;
+    margin: 40px;
+    text-align: left;
+    width: 50%;
+}
+ 
+header ul{
+    display: inline;
+    list-style-type: none;
+    float: right;
+}
+
+header ul li{
+    display: inline;
+    margin: 30px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin: 30px;
+    margin-top: 50px;
+}
