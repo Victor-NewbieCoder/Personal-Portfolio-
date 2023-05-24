@@ -1,42 +1,56 @@
 *{
-    box-sizing: border-box;
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-}
-
-body{
     background-color: #041806;
 }
 
-header{
+nav{
     display: flex;
-    text-align: center;
-}
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
 
-header h1{
+}
+.logo{
     color: white;
-    margin: 40px;
-    text-align: left;
-    width: 50%;
+    font-size: 35px;
 }
- 
-header ul{
-    display: inline;
+
+nav ul li{
     list-style-type: none;
-    float: right;
-}
-
-header ul li{
     display: inline;
-    margin: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-
-header ul li a{
+nav ul li a{
     text-decoration: none;
     color: white;
-    padding: 10px;
     font-size: 20px;
-    margin: 30px;
-    margin-top: 50px;
+    font-weight: bold;
 }
+
+nav ul li a:hover{
+    color: #295A2E;
+    transition: .3s;
+}
+
+button{
+    color: white;
+    border: none;
+    font-size: 20px;
+    background-color: #295A2E;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
