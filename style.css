@@ -109,6 +109,7 @@ button:hover{
     color: white;
     margin-top: 5%;
     width: 100%;
+    margin-bottom: 50px;
 }
 .Contactform h1{
     text-align: center;
@@ -119,30 +120,33 @@ button:hover{
 .Contactform .main{
     text-align: center;
     margin-top: 20px;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 100;
 }
 .contactext{
-    margin-top: 90px;
+    margin-top: 180px;
     margin-left: 10%;
     float: left;
 }
 .contactext p{
     margin-bottom: 40px;
-    font-size:28px;
+    font-size:20px;
     font-weight: lighter;
+    margin-left: 150px;
 }
 
 .formarea{
     width: 30%;
     padding: 40px;
     background: #295A2E;
+    background-color: #295A2E;
     float: left;
-    margin-left: 15%;
+    margin-left: 22%;
+    margin-top: 90px;
 }
 .formarea .textbox{
     background: #295A2E;
-    margin-top: 15px;
+    background-color: #295A2E;
 }
 
 .formarea .textbox span{
@@ -167,7 +171,7 @@ button:hover{
 }
 .formarea .textbox span{
     position: absolute;
-    left: 44%;
+    left: 53.6%;
     padding: 5px 0;
     font-size: 20px;
     margin: 10px 0;
@@ -184,4 +188,14 @@ button:hover{
     color: white;
     font-size: 15px;
     transform: translateY(-20px);
+}
+
+.formarea .textbox input[type="submit"]
+{
+    width: 100px;
+    background-color: #041806;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
 }
