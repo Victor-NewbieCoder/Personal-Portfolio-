@@ -85,14 +85,20 @@ button:hover{
 .content1 .btn button{
     margin-left: 10px;
 }
+.content1 a{
+    text-decoration: none;
+    color: white;
+    background-color: #295A2E;   
+}
 
 /*Adding my picture to the website*/
 
 .img{
     float: right;
+    margin-right: 5%;
 }
 
 .img img{
-    width: 80%;
-    margin-top: 7%;
+    margin-top: 10%;
+
 }
