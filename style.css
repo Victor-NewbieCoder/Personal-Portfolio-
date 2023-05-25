@@ -100,5 +100,88 @@ button:hover{
 
 .img img{
     margin-top: 10%;
+}
 
+/*Contact me Section*/
+
+.Contactform{
+    display: inline-block;
+    color: white;
+    margin-top: 5%;
+    width: 100%;
+}
+.Contactform h1{
+    text-align: center;
+    font-weight: 450;
+    font-size: 40px;
+}
+
+.Contactform .main{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: 100;
+}
+.contactext{
+    margin-top: 90px;
+    margin-left: 10%;
+    float: left;
+}
+.contactext p{
+    margin-bottom: 40px;
+    font-size:28px;
+    font-weight: lighter;
+}
+
+.formarea{
+    width: 30%;
+    padding: 40px;
+    background: #295A2E;
+    float: left;
+    margin-left: 15%;
+}
+.formarea .textbox{
+    background: #295A2E;
+    margin-top: 15px;
+}
+
+.formarea .textbox span{
+    background-color: transparent;
+}
+.formarea form h2{
+    background-color: #295A2E;
+}
+
+.formarea .textbox input,
+.formarea .textbox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 20px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 3px solid #041806;
+    background-color: #295A2E;
+    outline: none;
+    resize: none;
+}
+.formarea .textbox span{
+    position: absolute;
+    left: 44%;
+    padding: 5px 0;
+    font-size: 20px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #041806;
+}
+
+.formarea .textbox input:focus ~ span,
+.formarea .textbox input:valid ~ span 
+.formarea .textbox textarea:focus ~ span,
+.formarea .textbox textarea:valid ~ span 
+{ 
+    color: white;
+    font-size: 15px;
+    transform: translateY(-20px);
 }
