@@ -62,8 +62,8 @@ button:hover{
     margin-top: 10%;
     margin-left: 5%;
     color: white;
-    font-weight: bold;
-    font-size: 20px;
+    font-weight:600;
+    font-size: 30px;
 }
 
 .content1 h1{
@@ -72,8 +72,18 @@ button:hover{
     line-height: 90%;
 }
 .content1 .j{
+    margin-top: 40px;
+    margin-left: 60px;
+    font-size: 30px;
+    font-weight: 100;
+}
+.content1 .btn{
     margin-top: 30px;
-    font-size: 20px;
+    margin-left: 7%;
+}
+.content1 .btn button{
+    margin-left: 10px;
+
 }
 
 
