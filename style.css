@@ -64,6 +64,7 @@ button:hover{
     color: white;
     font-weight:600;
     font-size: 30px;
+    float: left;
 }
 
 .content1 h1{
@@ -83,7 +84,15 @@ button:hover{
 }
 .content1 .btn button{
     margin-left: 10px;
-
 }
 
+/*Adding my picture to the website*/
 
+.img{
+    float: right;
+}
+
+.img img{
+    width: 80%;
+    margin-top: 7%;
+}
